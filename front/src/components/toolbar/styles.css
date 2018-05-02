@@ -1,0 +1,10 @@
+@media screen and (max-width: 460px) {
+    .user-name, .header-right > span {
+        display: none !important;
+    }
+
+    .header-right div button {
+        display: inherit !important;
+        font-size: 12px !important;
+    }
+}

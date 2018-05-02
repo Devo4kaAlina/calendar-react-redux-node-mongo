@@ -1,0 +1,1 @@
+export const AGENDA_CALENDAR_WIDTH = 600;

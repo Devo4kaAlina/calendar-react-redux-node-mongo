@@ -1,0 +1,7 @@
+export const USER_SING_IN = 'USER_SING_IN';
+export const GET_USER_BY_TOKEN = 'GET_USER_BY_TOKEN';
+export const SNACKBAR = 'SNACKBAR';
+export const GET_USER_EVENTS = 'GET_USER_EVENTS';
+export const ADD_NEW_EVENT = 'ADD_NEW_EVENT';
+export const REMOVE_NEW_EVENT = 'REMOVE_NEW_EVENT';
+export const EXPORT_USER_EVENTS = 'EXPORT_USER_EVENTS';

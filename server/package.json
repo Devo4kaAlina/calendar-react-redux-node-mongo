@@ -1,0 +1,33 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "calendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./bin/www",
+    "pm2": "./node_modules/pm2/bin/pm2 start ecosystem.config.js --no-daemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "http-status-codes": "^1.1.6",
+    "mongodb": "^2.2.31",
+    "mongoose": "4.9.7",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-schema-extend": "0.2.2",
+    "morgan": "^1.8.2",
+    "node-uuid": "^1.4.8",
+    "pm2": "^2.6.1",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}

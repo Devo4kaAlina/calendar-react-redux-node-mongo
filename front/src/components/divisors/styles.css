@@ -1,0 +1,16 @@
+.calendar__divisor {
+    position: absolute;
+    left: -45px;
+    width: calc(100% + 90px);
+    border-top: 1px solid #ececec;
+    margin-left: -10px;
+    padding-right: 20px;
+}
+
+.calendar__divisor__time {
+    margin-left: -80px;
+    position: absolute;
+    font-size: 12px;
+    text-align: right;
+    width: 60px;
+}

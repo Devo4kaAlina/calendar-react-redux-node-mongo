@@ -1,0 +1,15 @@
+.agenda__calendar {
+    padding: 0 10px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.calendar__container {
+    position: relative;
+}
+
+@media screen and (max-width: 700px) {
+    .agenda__calendar {
+        width: 70% !important;
+    }
+}

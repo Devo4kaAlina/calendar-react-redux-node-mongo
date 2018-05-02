@@ -1,1 +1,1 @@
-# calendar-react-redux-node-mongo
+calendar

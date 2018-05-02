@@ -1,0 +1,35 @@
+.calendar__event {
+    background: #E2ECF5;
+    position: absolute;
+    z-index: 10;
+    font-size: 12px;
+    border-left: 2px solid #6E9ECF;
+    overflow: hidden;
+    max-width: 200px;
+    box-sizing: border-box;
+}
+
+.calendar__event__content {
+    margin: 5px;
+}
+
+.calendar__event__content__title {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+}
+
+.calendar__event__content__remove {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.calendar__event:hover .calendar__event__content__remove {
+    display: block;
+}
