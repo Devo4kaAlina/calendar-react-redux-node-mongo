@@ -1,14 +1,14 @@
 
 ## Calendar (react/redux + node/mongo)
 
-- For runing front:
+- For running front:
 
   - cd front/
   - npm i
   - npm run start
   - open in browser localhost:3000
   
-- For runing server:
+- For running server:
 
   - cd server/
   - npm i
